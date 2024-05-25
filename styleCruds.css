@@ -1,0 +1,143 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+::selection {
+     background-color: #004280;
+     color: darkgoldenrod;
+}
+
+body {
+     background: rgb(20, 20, 20);
+     color: white;
+}
+
+.container {
+     text-align: center;
+     padding: 1em 3em;
+}
+
+header h6 {
+     font-size: 0.8em;
+}
+
+header {
+     margin-bottom: 2em;
+}
+
+
+input {
+     background-color: rgb(29, 29, 29);
+     border: 1px solid rgb(65, 65, 65);
+     margin: 0.2em;
+     height: 1.8em;
+     padding-left: 0.5em;
+     border-radius: 0.4em;
+     margin-bottom: 0.4em;
+     color: white;
+     width: 100%;
+     font-size: 1em;
+}
+
+input:hover {
+     background-color: rgb(24, 24, 24);
+     ;
+}
+
+input:focus {
+     background-color: rgb(12, 12, 12);
+     transform: scale(1.03);
+}
+
+.price {
+     display: flex;
+     align-items: center;
+}
+
+.price input {
+     width: 18%;
+}
+
+small {
+     margin-left: 2em;
+     background-color: red;
+     height: 1.8em;
+     width: 16%;
+     border-radius: 0.4em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 1.5px;
+     font-size: 1em;
+}
+
+#total::before {
+     content: "Total: ";
+}
+
+button {
+     background-color: purple;
+     border: 0;
+     border-radius: 1em;
+     height: 1.5em;
+     color: white;
+     font-size: 1em;
+     width: 80%;
+     margin: 0.3em 0;
+     font-size: 1em;
+     transition: 0.2s;
+}
+
+button:hover {
+     background-color: rgb(94, 0, 94);
+     color: rgb(190, 190, 190);
+     letter-spacing: 0.6px;
+}
+
+.btns {
+     display: flex;
+     justify-content: space-between;
+}
+
+.btns button {
+     width: 40%;
+}
+
+.btns #searchNumber {
+     background-color: #004280;
+     border-radius: 1em;
+     height: 1.5em;
+     font-size: 1em;
+     margin: 0.3em 0;
+     width: 6.25%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 800;
+}
+
+table {
+     margin-top: 1em;
+     width: 100%;
+     text-align: center;
+}
+
+table th {
+     text-transform: uppercase;
+}
+
+tbody {
+     width: 100%;
+}
+
+th,
+td {
+     padding: 0.2em;
+}
+
+#deleteAll {
+     margin-top: 0.8em;
+     display: none;
+}
